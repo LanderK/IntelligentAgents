@@ -1,0 +1,7 @@
+<agentscape xmlns="http://www.agentscape.org/config">
+  <application>
+    <agent name="Monitor" clones="1" jar="rover-monitor-0.0.1.jar" class="rover.MonitorAgent"/>
+    <agent name="Scanner" clones="1" class="rover.MasterRover" jar="lk383Agents.jar"/>
+    <agent name="Camel" clones="2" class="rover.Collect1Type1" jar="lk383Agents.jar"/>
+  </application>
+</agentscape>
